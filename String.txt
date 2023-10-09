@@ -1,0 +1,13 @@
+SCP:
+It is a special memory location in the heap area which stores String literals.
+
+The String objects are immutable, which means once a string object is created
+its data or state cant be changed.
+
+Multiple String Objects can be concatenated using + operator.
+
+The parameters used for network connections, database connection URLs, username/passwords
+are represented in string.
+
+String class is thread safe, thereby it solves synchronization issues.
+
