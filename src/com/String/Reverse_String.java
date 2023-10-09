@@ -14,6 +14,6 @@ public class Reverse_String {
 
         System.out.println("Reverse of " + s + " is : " + rev);
 
-        System.out.println("String is successfully reversed.");
+        System.out.println("String is successfully reversed..");
     }
 }
