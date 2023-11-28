@@ -9,16 +9,20 @@ public class Empty_Sting {
 
         String a = scanner.nextLine();
 
-        byte [] array = a.getBytes();
+        byte[] array = a.getBytes();
 
-        System.out.println(a.isEmpty());  // true
+        System.out.println(a.isEmpty()); // true
 
         String b = null;
 
+        for (byte each : array) {
+
+            System.out.println(each);
+        }
         try {
             System.out.println(b.isEmpty());
-        }
-        catch(NullPointerException n){
+            scanner.close();
+        } catch (NullPointerException n) {
             System.out.println("you are getting an exception.");
             n.printStackTrace();
         }
