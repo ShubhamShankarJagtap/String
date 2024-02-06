@@ -10,6 +10,7 @@ public class Split_String {
 
          System.out.println(d);
      }
+
     }
     public static void main(String[] args) {
 
